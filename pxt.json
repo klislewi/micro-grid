@@ -1,0 +1,27 @@
+{
+    "name": "micro grid",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Micro Grid": "github:unclesam1966/micro-grid#cbd5b90b4a8bb847e028df2ac2df0e216935f88a"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "Micro Grid.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
